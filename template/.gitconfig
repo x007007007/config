@@ -1,0 +1,18 @@
+@# :name : .gitconfig
+@# :tpltype: jinja2
+@# :platform: *nix
+@# :param USER: user
+@# :param EMAIL: email
+@# :param HOME: HOME_PATH
+# This is Git's per-user configuration file.
+[core]
+# Please adapt and uncomment the following lines:
+	user = {{USER}}
+	email = {{EMAIL}}
+	autocrlf = input
+	excludesfile = {{HOME}}/.gitignore_global
+[user]
+	name = {{USER}}
+	email = {{EMAIL}}
+[push]
+	default = simple
