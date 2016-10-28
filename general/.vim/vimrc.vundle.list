@@ -1,0 +1,22 @@
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+
+Bundle 'gmarik/vundle'
+
+Bundle 'ctrlpvim/ctrlp.vim'
+Bundle 'Lokaltog/vim-powerline'
+Plugin 'vim-airline/vim-airline'
+
+
+Bundle 'scrooloose/nerdcommenter'  
+" shortcut annotation
+
+
+Bundle 'sukima/xmledit'
+Bundle 'klen/python-mode'
+
+Bundle "tomasr/molokai"
+
+
